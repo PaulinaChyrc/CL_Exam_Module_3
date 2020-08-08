@@ -1,0 +1,12 @@
+@mixin addColor($colZ6) {
+    background-color: $colZ6;
+    &:hover{
+        background-color: lighten($colZ6, $amount: 50);
+    }
+}
+
+.section-2 div{
+    @include addColor(#000000);
+    height:100px;
+    width: 50px;
+}

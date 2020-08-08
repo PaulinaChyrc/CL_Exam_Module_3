@@ -1,0 +1,7 @@
+.section-1, .section-3{
+    height: 1000px;
+}
+
+.section-2{
+    height: calc(100% - 2 * 1000px);
+}

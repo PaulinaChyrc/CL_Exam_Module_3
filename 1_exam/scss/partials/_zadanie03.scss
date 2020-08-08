@@ -1,0 +1,6 @@
+$rainbowList: map-values($rainbow);
+@for $i from 1 through 7 {
+  .col-#{$i}{
+    background-color: nth($rainbowList, $i) ;
+    // height: 400px;
+  }}
